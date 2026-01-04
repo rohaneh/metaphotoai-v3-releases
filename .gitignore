@@ -1,0 +1,16 @@
+# This repository contains only release documentation and binaries
+# Releases are managed via GitHub Releases
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
