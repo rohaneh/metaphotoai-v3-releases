@@ -2,6 +2,51 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.18] - 2026-02-26
+
+### Added
+- Image Upscaling: Standalone 4x upscaling via Runware.ai Real-ESRGAN with context menu integration
+- Image Upscaling: Progress indicators in Filmstrip and Thumbnail Grid views
+- Image Upscaling: Format validation (JPG, PNG, WEBP) and size limit enforcement
+- Inline Metadata Suggestions: AI-powered suggestions for title, description, and keywords within the metadata panel
+- Spellcheck: Built-in spellcheck with context menu integration and keyword suggestions
+- Spellcheck: Dictionary support and keyboard navigation for suggestions
+- Metadata Versioning: Full edit history tracking with version restore capability
+- Metadata Versioning: Restore from context menu across all view components
+- System Prompts: Custom system prompts for AI metadata generation with per-folder assignment
+- Copyright Management: Configurable copyright text, creator, business, and date source in global and folder settings
+- Copyright Management: Automatic copyright application during metadata write
+- Import Embedded Metadata: Auto-import IPTC/XMP metadata from image files on add, with toggle in General Settings
+- Multi-Select Metadata Editing: Edit title, description, keywords, and categories across multiple selected images
+- Multi-Select Metadata Editing: Mixed-value indicators and keyword merge/replace toggle
+- Keyword Drag-and-Drop: Reorder keywords by dragging within the keywords field
+- FTP Quick Upload: One-click upload to selected FTP/SFTP host from the bottom toolbar
+- FTP Hosts: Preset configurations for Alamy, Deposit Photos, and Pond5
+- Activity Queue Tab: Consolidated queue view for FTP, workflow, EXIF, and batch operations
+- Image Info Tab: Multi-selection summary with aggregated information display
+- Onboarding: Enhanced steps with detailed descriptions and CSV export step
+- What's New: Modal with scroll-spy navigation, lightbulb icon with badge, auto-show on update
+
+### Changed
+- Metadata Tab: Refactored tab management with consolidated queue handling into single Activity Queue Tab
+- Sidebar: Improved header action button visibility on hover and focus
+- Root Directories: Deduplication and upsert logic for adding folders
+- Root Directories: Enhanced folder name extraction and validation
+- Tooltips: Improved TooltipBubble positioning and rendering logic
+- Dialogs: Added auxiliary button support and improved image switching confirmation flow
+- Image Switching: Improved pending state handling with layout effects
+- Background Previews: Paged sweep for directory images for better performance
+- Error Messages: User-friendly error formatting across batch processors
+- Character Limits: Helper text and prompt limits increased to 1000 characters
+- Processing: OpenRouter processing enabled by default
+- Localization: Added translations for upscale, spellcheck, metadata versioning, copyright, system prompts, and multi-select features across all 12 languages
+
+### Fixed
+- Metadata History: Corrected version count display logic in MetadataActions
+- CSV Templates: Removed extra padding from checkbox styles
+- Image Switching: Fixed pending state and layout effect handling
+- Context Menu: Upscale text updated for clarity across all locales
+
 ## [3.0.17] - 2026-02-17
 
 ### Added
@@ -117,6 +162,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.18]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.18
 [3.0.17]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.17
 [3.0.15]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.15
 [3.0.14]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.14
