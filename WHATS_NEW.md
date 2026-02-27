@@ -34,6 +34,7 @@ Configure copyright text, creator name, and business information in global or fo
 Reorder keywords by dragging them into your preferred position. Fine-tune keyword relevance ordering before exporting or writing to files.
 
 ### Import Embedded Metadata
+![](https://metaphotoai.io/whats-new/3.0.18/import-embedded-metadata-on-import.jpeg)
 Automatically import existing IPTC/XMP metadata from image files when adding them to your library. Toggle this behavior in General Settings.
 
 ### New Default Stock Agencies For Quick FTP Upload
