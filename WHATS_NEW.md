@@ -4,11 +4,14 @@
 
 ### Image Upscaling
 ![](https://metaphotoai.io/whats-new/3.0.18/upscaling.jpeg)
-Upscale your images up to 4x resolution using Real-ESRGAN directly from the context menu. Supports JPG, PNG, and WEBP formats with progress indicators in both Filmstrip and Thumbnail Grid views.
+Upscale your images up to 2x resolution directly from the context menu. Supports JPG, PNG, and WEBP formats with progress indicators in both Filmstrip and Thumbnail Grid views.
 
 ### Inline Metadata Suggestions
 ![](https://metaphotoai.io/whats-new/3.0.18/inline-suggestions.jpeg)
 Get AI-powered inline suggestions for titles, descriptions, and keywords right inside the metadata panel. Accept, dismiss, or refine suggestions without leaving your workflow.
+#### Contextual Keyword Suggestions
+![](https://metaphotoai.io/whats-new/3.0.18/contextual-keyword-suggestions.jpeg)
+Get intelligent keyword suggestions based on your existing metadata.
 
 ### Spellcheck
 ![](https://metaphotoai.io/whats-new/3.0.18/spellcheck.jpeg)
@@ -33,5 +36,6 @@ Reorder keywords by dragging them into your preferred position. Fine-tune keywor
 ### Import Embedded Metadata
 Automatically import existing IPTC/XMP metadata from image files when adding them to your library. Toggle this behavior in General Settings.
 
-### Quick FTP Upload
+### New Default Stock Agencies For Quick FTP Upload
+![](https://metaphotoai.io/whats-new/3.0.18/new-stock-agencies-for-upload.jpeg)
 Upload directly to any configured FTP/SFTP host from the bottom toolbar with a single click. New preset configurations for Alamy, Deposit Photos, and Pond5.
