@@ -40,3 +40,57 @@ Automatically import existing IPTC/XMP metadata from image files when adding the
 ### New Default Stock Agencies For Quick FTP Upload
 ![](https://metaphotoai.io/whats-new/3.0.18/new-stock-agencies-for-upload.jpeg)
 Upload directly to any configured FTP/SFTP host from the bottom toolbar with a single click. New preset configurations for Alamy, Deposit Photos, and Pond5.
+
+## [3.0.17] February 2026
+
+### AI Image Generation
+Generate stock photos directly within MetaPhotoAI using Runware.ai models. Choose from multiple AI models, set a target folder, and queue up batch generations. Create variations of existing images with "Generate Similar", and auto-attach generation prompts as helper text for metadata.
+
+### AI Image Generation History & Prompts
+Browse your full generation history with job cards showing AI model details and clipboard actions. Manage your prompts library with multi-select, bulk delete, move, filter, sort, and usage count tracking.
+
+### Thumbnail Grid View
+A new Lightroom-inspired grid layout with adaptive metadata display. Includes status badges, color tag borders, responsive compact mode, keyboard shortcuts for thumbnail sizing, and animated border glow for items with generating metadata.
+
+### Breadcrumb Navigation
+Navigate your folder hierarchy with a new breadcrumb component supporting all 12 languages.
+
+### Folder Management
+Rename, delete, sort, and create directories directly from the sidebar. Includes folder creation within the image generation workflow.
+
+### Resizable Right Panel
+Drag to resize the right panel to your preferred width. Your setting persists across sessions via localStorage.
+
+### Image Reporting
+Report issues with AI-generated images using local hash verification and duplicate prevention.
+
+## [3.0.15] January 2025
+
+### User Guide
+An interactive standalone window with collapsible sidebar, image and video support, and detailed pricing information. Access it anytime from the header bar.
+
+### Category Override
+Override stock photo categories at the folder level. Assign categories per folder so all images within inherit the correct category automatically.
+
+### Metadata Templates
+Apply metadata templates with new modes — apply all fields or only positive (non-empty) fields — giving you finer control over template behavior.
+
+### Workflow Enhancements
+Choose notification methods for workflow completion, duplicate existing workflows, and configure execution scope settings for more flexible automation.
+
+### FTP Settings Improvements
+Duplicate FTP/SFTP host configurations with one click. Enhanced delete host functionality with clear danger action buttons.
+
+## [3.0.14] January 2025
+
+### Helper Text Search & Filters
+Search images by their helper text content using the global search. Filter by helper text status in the bottom toolbar to quickly find images with or without helper text.
+
+### Shutterstock Video Categories
+Full support for Shutterstock video categories with improved media type handling for video files.
+
+### Enhanced Filmstrip Tooltips
+Filmstrip tooltips now display video-specific metadata including duration, resolution, and codec information. Improved tooltip visibility when context menus or color tag pickers are open.
+
+### FTP Host Duplication
+Quickly clone existing FTP/SFTP configurations to set up similar hosts without re-entering all connection details.
