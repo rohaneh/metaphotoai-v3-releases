@@ -2,6 +2,42 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.19] - 2026-03-07
+
+### Added
+- Similarity Detection: Perceptual hash (pHash) processing to detect similar and duplicate images
+- Cross-Device Sync: Sync settings and data across devices with background sync and conflict resolution UI
+- Image Moving: Drag-and-drop support to move images between folders
+- Keyboard Shortcuts: New shortcut engine with chord bindings, command bus, and shortcut hints on buttons and dialogs
+- What's New Modal: In-app version changelog with collapsible version groups shown automatically after updates
+- CSV Export: Export selected metadata templates to CSV
+- Live Credits: Real-time credit balance display and management in the UI
+- Resizable Left Panel: Drag to resize the sidebar with state persistence
+- Background Task Indicator: Status tracking and UI indicator for background operations
+- History Tab: Image generation and upscale history tracking with cache-first loading and cross-device name resolution
+- Copy Metadata from History: Copy and restore metadata directly from history items
+- Email Privacy: Toggle to mask email address in the user menu
+- Confirmation Prompts: Configurable confirmation dialogs for metadata generation and save actions
+- Upscale History: Detailed upscale job tracking with folder path and device information
+
+### Changed
+- Batch Processing: Faster category endpoint with configurable concurrent sub-batch processing
+- Right Panel: Increased minimum and default width to 530px for better metadata visibility
+- Metadata Panel: Improved copyright display with clickable elements
+- Video Speed Selector: Refactored to dropdown for cleaner UI
+- Filmstrip & Thumbnails: Enhanced scrollbar visibility on hover
+- Sidebar: Improved button visibility and interaction states
+- Bottom Toolbar: Enhanced button disable logic for empty folders
+- Preview Pane: Dynamic media styling and video play button workaround
+- Performance: Speculative prefetching for metadata loading and non-blocking cache setup
+- Localization: Added translations for similarity detection, history, sync, confirmation prompts, and queue labels across all supported languages
+
+### Fixed
+- Layout: Disabled hover effects and transitions on panels during resize to prevent layout thrashing
+- Reconciliation: Improved category request filtering and not-found retry management
+- Metadata Panel: Fixed null check for primary editing image in selection metadata map
+- Keyboard: Prevented metadata generation trigger for single video images
+
 ## [3.0.18] - 2026-02-26
 
 ### Added
@@ -25,7 +61,6 @@ All notable changes to MetaPhotoAI will be documented in this file.
 - Activity Queue Tab: Consolidated queue view for FTP, workflow, EXIF, and batch operations
 - Image Info Tab: Multi-selection summary with aggregated information display
 - Onboarding: Enhanced steps with detailed descriptions and CSV export step
-- What's New: Modal with scroll-spy navigation, lightbulb icon with badge, auto-show on update
 
 ### Changed
 - Metadata Tab: Refactored tab management with consolidated queue handling into single Activity Queue Tab
@@ -162,6 +197,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.19]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.19
 [3.0.18]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.18
 [3.0.17]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.17
 [3.0.15]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.15

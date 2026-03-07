@@ -1,5 +1,51 @@
 # What's New in MetaPhotoAI
 
+## [3.0.19] March 2026
+
+### Cross-Device Sync
+![](https://metaphotoai.io/whats-new/3.0.19/cross-device-sync.jpeg)
+Sync your settings and data across multiple devices. Sync runs automatically in the background after sign-in, with a built-in conflict resolution UI when changes collide.
+
+### Image Moving with Drag-and-Drop
+![](https://metaphotoai.io/whats-new/3.0.19/image-moving.jpeg)
+Move images between folders by dragging and dropping them in the sidebar. Image references are automatically updated so nothing breaks.
+
+### Keyboard Shortcuts & Shortcut Hints
+![](https://metaphotoai.io/whats-new/3.0.19/keyboard-shortcuts.jpeg)
+A new shortcut engine with support for chord bindings (multi-key sequences). Shortcut hints now appear on buttons and in dialogs so you can learn the shortcuts as you work.
+
+### What's New Modal
+![](https://metaphotoai.io/whats-new/3.0.19/whats-new-modal.jpeg)
+After each update, a What's New modal automatically shows you what changed. Browse collapsible version groups to catch up on recent and past releases.
+
+### Generation & Upscale History
+![](https://metaphotoai.io/whats-new/3.0.19/history-tab.jpeg)
+A dedicated History tab tracks all your AI image generation and upscale jobs with cache-first loading for instant access. Copy metadata or restore previous versions directly from history items.
+
+### Resizable Left Panel
+![](https://metaphotoai.io/whats-new/3.0.19/resizable-left-panel.jpeg)
+Drag to resize the sidebar to your preferred width. Your setting persists across sessions.
+
+### Live Credits
+![](https://metaphotoai.io/whats-new/3.0.19/live-credits.jpeg)
+Your credit balance now updates in real time as you use AI features, so you always know where you stand.
+
+### CSV Template Export
+![](https://metaphotoai.io/whats-new/3.0.19/csv-export.jpeg)
+Export selected metadata templates to CSV for use in external tools or bulk upload workflows.
+
+### Confirmation Prompts
+![](https://metaphotoai.io/whats-new/3.0.19/confirmation-prompts.jpeg)
+Configure when MetaPhotoAI asks for confirmation before generating or saving metadata. Customize the prompts to match your preferred workflow.
+
+### Email Privacy Toggle
+![](https://metaphotoai.io/whats-new/3.0.19/email-privacy.jpeg)
+Mask your email address in the user menu with a single click for added privacy when screen sharing or recording.
+
+### Upscaling Queue
+![](https://metaphotoai.io/whats-new/3.0.18/upscaling-queue.jpeg)
+Queue multiple upscaling jobs and monitor their progress in real time. Pause, resume, or cancel jobs as needed with detailed status information.
+
 ## [3.0.18] February 2026
 
 ### Image Upscaling
