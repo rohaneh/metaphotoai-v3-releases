@@ -2,6 +2,25 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.22] - 2026-03-08
+
+### Added
+- Folder Completion Requirements: Configurable per-folder completion criteria including title, description, keywords, categories, and no-warnings checks
+- Completion Breakdown: Detailed per-field completion stats in the status bar popover showing exactly which requirements each image is missing
+- Upload Readiness Filter: Option to upload only "ready" items that meet all folder completion requirements during FTP/SFTP upload
+- Choice Confirmation for Uploads: Confirmation dialog before uploading that shows completion stats and lets you choose to upload the full folder, visible items, or selected items
+- No-Warnings Completion Requirement: New completion field that marks images as incomplete if they have metadata rule warnings
+
+### Changed
+- Status Bar: Redesigned popover with interactive completion requirement checkboxes and live breakdown stats
+- Status Bar: Improved popover styling and layout for better readability
+- Dropdown Menus: Adjusted menu item alignment for consistency
+- Default Settings: Categories completion requirement now defaults to off for new installations
+- Localization: Added translations for folder completion requirements, upload readiness, and completion breakdown across all 12 supported languages
+
+### Fixed
+- Default folder completion requirement for categories changed to false to avoid requiring categories for all users by default
+
 ## [3.0.19] - 2026-03-07
 
 ### Added
@@ -197,6 +216,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.22]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.22
 [3.0.19]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.19
 [3.0.18]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.18
 [3.0.17]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.17

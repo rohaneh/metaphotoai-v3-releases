@@ -1,5 +1,20 @@
 # What's New in MetaPhotoAI
 
+## [3.0.22] March 2026
+
+### Folder Completion Requirements
+![](https://metaphotoai.io/whats-new/3.0.22/folder-completion-requirements.jpeg)
+Define what makes an image "ready" in each folder. Choose from title, description, keywords, categories, and no-warnings as completion criteria. The status bar shows a live ready count so you always know how many images are complete.
+
+### Completion Breakdown
+![](https://metaphotoai.io/whats-new/3.0.22/completion-breakdown.jpeg)
+Click the ready count in the status bar to see a detailed breakdown of which completion requirements your images are meeting. Each field shows how many images pass, so you can quickly identify what needs attention.
+
+### Upload Readiness Validation
+![](https://metaphotoai.io/whats-new/3.0.22/upload-readiness.jpeg)
+Before uploading via FTP/SFTP, a confirmation dialog now shows your folder's completion stats and lets you choose to upload the entire folder, only visible items, or your current selection. Enable "Upload only ready items" in upload settings to automatically filter out incomplete images.
+
+
 ## [3.0.19] March 2026
 
 ### Cross-Device Sync
