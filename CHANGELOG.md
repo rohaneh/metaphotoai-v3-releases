@@ -2,6 +2,22 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.23] - 2026-03-10
+
+### Added
+- Metadata Shortening: AI-powered shortening for titles and descriptions via the metadata field context menu to meet stock agency character limits
+- Folder Pinning: Pin up to 6 frequently used folders to the top of the sidebar for quick access
+- Pin Indicator: Visual pin icon on pinned directories in the sidebar
+- Filmstrip Sequence Numbers: Configurable sequence number overlay on filmstrip items, enabled by default
+- Ghost Keyword Tags: Streamlined keyword suggestion display with ghost tag styling for inline suggestions
+
+### Changed
+- Filmstrip Numbers: Show filmstrip sequence numbers by default for new installations
+- Metadata Panel: Improved textarea dimensions and layout for better editing experience
+- Sidebar: Adjusted directory header font opacity for improved visibility
+- Filmstrip: Adjusted sequence number color opacity for better readability
+- Localization: Added translations for metadata shortening and filmstrip number settings across all 12 supported languages
+
 ## [3.0.22] - 2026-03-08
 
 ### Added
@@ -216,6 +232,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.23]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.23
 [3.0.22]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.22
 [3.0.19]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.19
 [3.0.18]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.18

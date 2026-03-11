@@ -1,5 +1,23 @@
 # What's New in MetaPhotoAI
 
+## [3.0.23] March 2026
+
+### Metadata Shortening
+![](https://metaphotoai.io/whats-new/3.0.23/metadata-shortening.jpeg)
+Right-click any title or description field to shorten it with AI. MetaPhotoAI intelligently condenses your text to fit within stock agency character limits while preserving the meaning and key details.
+
+### Folder Pinning
+![](https://metaphotoai.io/whats-new/3.0.23/folder-pinning.jpeg)
+Pin your most-used folders to the top of the sidebar for instant access. Pin up to 6 folders so your active projects are always one click away, no matter how many folders you have.
+
+### Filmstrip Sequence Numbers
+![](https://metaphotoai.io/whats-new/3.0.23/filmstrip-numbers.jpeg)
+Filmstrip items now display sequence numbers so you can quickly reference and communicate about specific images. Toggle this on or off in General Settings.
+
+### Ghost Keyword Suggestions
+![](https://metaphotoai.io/whats-new/3.0.23/ghost-keyword-tags.jpeg)
+Keyword suggestions now appear as subtle ghost tags inline with your existing keywords. Accept suggestions with a single click for a faster, more intuitive tagging workflow.
+
 ## [3.0.22] March 2026
 
 ### Folder Completion Requirements
