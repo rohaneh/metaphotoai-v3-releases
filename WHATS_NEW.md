@@ -3,15 +3,15 @@
 ## [3.0.27] April 2026
 
 ### Dark, Light & Auto Themes
-![](https://metaphotoai.io/whats-new/3.0.27/theme-management.jpeg)
+![](https://metaphotoai.io/whats-new/3.0.27/theme-management.gif)
 Switch between dark, light, and auto theme modes. Auto mode follows your system appearance. All panels, dialogs, and child windows update seamlessly with consistent styling throughout.
 
 ### Preview Zoom Controls
-![](https://metaphotoai.io/whats-new/3.0.27/preview-zoom.jpeg)
+![](https://metaphotoai.io/whats-new/3.0.27/preview-zoom.gif)
 Zoom in and out on your preview images with new zoom controls. Toggle between zoom levels with a single click and see a loading indicator while high-resolution images load.
 
 ### Tip of the Day
-![](https://metaphotoai.io/whats-new/3.0.27/tip-of-the-day.jpeg)
+![](https://metaphotoai.io/whats-new/3.0.27/tip-of-the-day.gif)
 Discover useful features and workflow tips with a daily tip notification. Each tip includes a description and optional media to help you get the most out of MetaPhotoAI. Available in all supported languages.
 
 ### Offline Status Indicator
@@ -23,11 +23,11 @@ A visual indicator lets you know when your internet connection is unavailable, s
 MetaPhotoAI now warns you before quitting during active tasks or when you have unsaved metadata changes. No more accidentally losing work when switching folders or closing the app.
 
 ### History Search & Export
-![](https://metaphotoai.io/whats-new/3.0.27/history-search.jpeg)
+![](https://metaphotoai.io/whats-new/3.0.27/history-search.gif)
 Search through your generation history and export batches to CSV. You can also apply metadata from any history item directly to your currently selected images.
 
 ### Keyword Display Size
-![](https://metaphotoai.io/whats-new/3.0.27/keyword-display-size.jpeg)
+![](https://metaphotoai.io/whats-new/3.0.27/keyword-display-size.gif)
 Adjust the display size of keyword tags in the metadata panel to match your preference — helpful when working with many keywords on smaller screens.
 
 ### New Ollama Models
