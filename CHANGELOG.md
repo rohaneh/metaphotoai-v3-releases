@@ -2,6 +2,43 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.27] - 2026-04-05
+
+### Added
+- Local Processing: Support for local AI processing with updated credit calculations and confirmation messages
+- Offline Status Indicator: Visual indicator when the app has no internet connection, with automatic network status detection
+- Theme Management: Full dark, light, and auto theme modes with CSS variable theming across all components and child windows
+- Preview Zoom: Zoom controls in the Preview Pane with toggle between zoom levels, loading indicators, and localization support
+- Tip of the Day: Daily tips displayed as toast notifications with localization and media support, including keyboard navigation
+- History Search: Search functionality for history batches to quickly find past generation jobs
+- History CSV Export: Export history batches to CSV for external use
+- Apply Metadata from History: Apply metadata from history items directly to selected images
+- Quit Guard: Confirmation dialog when quitting during active tasks to prevent data loss
+- Unsaved Changes Guard: Navigation guard to prevent losing unsaved metadata when switching directories
+- Keyword Display Size: Configurable keyword tag display size settings
+- Clear Recent Searches: Ability to clear recent search history with a dedicated button
+- New Ollama Models: Support for additional Ollama AI models with updated display names
+- Enhanced Onboarding: Improved empty state onboarding experience with new UI and translations
+- Drag-and-Drop Folders: Drop folders onto the sidebar to add them as root directories
+- Directory Subtree Management: Utilities for detecting and removing subtree duplicates when adding folders
+
+### Changed
+- Status Bar Messages: Replaced toast notifications with less intrusive status bar messages for user feedback
+- Preview Background: Dynamic preview background color based on effective theme with manual override for light mode
+- Windows Compatibility: Improved cross-platform file handling and compatibility
+- Preview Performance: Optimized panning and zooming for smoother interactions on all platforms
+- Filmstrip Numbers: Version-gated filmstrip number default setting with migration support
+- Category Generation: Improved category generation handling and user feedback
+- Process Management: Cleaner shutdown behavior when closing the application
+- Thumbnail Handling: Improved thumbnail loading reliability with cache management
+- Localization: Refined tip descriptions across all supported languages for clarity and usability
+
+### Fixed
+- EXIF Data: Improved image dimension retrieval from file metadata
+- Metadata Import: Fixed duplicated description after metadata re-import
+- Filter Dropdown: Fixed filter dropdown not opening from external triggers
+- Tip of the Day: Corrected navigation behavior for tip actions
+
 ## [3.0.23] - 2026-03-10
 
 ### Added
@@ -232,6 +269,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.27]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.27
 [3.0.23]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.23
 [3.0.22]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.22
 [3.0.19]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.19
