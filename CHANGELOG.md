@@ -2,6 +2,48 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.0.28] - 2026-06-01
+
+### Added
+- Collections: Create manual collections and smart collections to organize work across folders without moving files
+- Smart Collections: Build dynamic collections with advanced rules for ratings, metadata status, folders, and other image attributes
+- Collection Actions: Add selected images to collections, remove images from collections, navigate back to source folders, and run batch actions from collection views
+- IPTC Metadata Editor: New structured IPTC tab for editing contact, creator, rights, licensing, event, location, and administrative metadata
+- IPTC Reusable Entries: Save and reuse structured IPTC location entries, with copy/paste actions for faster repeated metadata entry
+- Location Editing: Map picker, coordinate paste, copy coordinates, and reset controls for GPS metadata
+- Image Review: Rating controls, rating filters, and optional rating display in the preview pane and image info panel
+- Rejection Workflow: Mark images as rejected, show rejected state in the preview, and skip rejected items during confirmation-based actions
+- Similar Image Audit: Review visually similar images, compare groups with previews, adjust scan sensitivity, and act on matches from the audit dialog
+- Image Info: RGB and luminance histogram views, color profile metadata, expanded file details, and derived asset rotation controls
+- History Window: Dedicated history window for generation and upscale history
+- Folder Automation: Per-folder automatic keyword generation settings with folder indicators
+- File Support: Adobe Illustrator file support
+- Command Palette: More actions for folders, context actions, image selection, preview controls, tab controls, export, upload, copyright, and accessibility workflows
+- Add Files to Folder: Add files directly to the current folder from the app workflow
+
+### Changed
+- Preview Pane: Metadata now overlays the preview image with improved spacing, shadows, centered fit behavior, and clearer rejected/rating indicators
+- Preview Zoom: Zoom controls are docked below the image area, exposed in the View menu, and available through command palette actions
+- Right Panel: Tabs can be customized from a dropdown so each workflow can keep the most relevant panels visible
+- Thumbnail Grid: Quick actions, status overlays, rating display, selection behavior, and matched-image audit previews were refined
+- Folder Browser: Collection controls, folder settings indicators, drag-and-drop behavior, context menus, and empty states were improved
+- History and Prompt Views: Saved prompts render more efficiently and history is easier to access from a separate window
+- Notifications and Dialogs: Close buttons, notification surfaces, upload/export language, and workflow discovery were normalized for clearer feedback
+- Accessibility: Main regions, controls, command workflows, focus states, announcements, and keyboard-accessible actions were expanded across the app
+- Localization: User guide, tooltips, IPTC fields, collection language, review actions, and new workflows were translated across supported languages
+- Startup and Performance: App startup, thumbnail loading, folder scans, idle work, and prompt rendering were optimized
+
+### Fixed
+- Collections: Fixed stale counts, empty states, filter clearing, rating filters, drag-and-drop into collections, source labels, and delete behavior
+- Folder Trash: Fixed stale image state after deleting a folder
+- Preview: Fixed selection render loops, rejected badge positioning, title tooltips, and location overlay readability
+- IPTC: Fixed grouped editor layout, tab switching, shared fields, multiline values, save behavior, and structured metadata writes
+- Similar Image Audit: Fixed preview lookup, dialog stacking, group display, scan progress, and audit thumbnails
+- Thumbnail Grid: Fixed stale rating overlays and refreshed filtered thumbnail records
+- Shortcuts: Fixed Option-key shortcut normalization and updated rating shortcuts
+- Import and File Handling: Improved file import behavior, embedded metadata import, folder add actions, and image rotation handling
+- History: Improved access to history from the app workflow
+
 ## [3.0.27] - 2026-04-05
 
 ### Added
@@ -269,6 +311,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.0.28]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.28
 [3.0.27]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.27
 [3.0.23]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.23
 [3.0.22]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.22

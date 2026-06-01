@@ -1,5 +1,41 @@
 # What's New in MetaPhotoAI
 
+## [3.0.28] June 2026
+
+### Collections & Smart Collections
+![](https://metaphotoai.io/whats-new/3.0.28/collections-smart-collections.jpeg)
+Organize images across folders without moving the original files. Create hand-picked collections for client sets, reviews, or uploads, or build smart collections that update automatically from rules such as ratings, folders, and metadata status.
+
+### Full IPTC Metadata Editing
+![](https://metaphotoai.io/whats-new/3.0.28/iptc-metadata-editor.jpeg)
+The new IPTC tab gives you structured controls for creator, contact, rights, licensing, event, location, and administrative metadata. Reusable entries and copy/paste actions make repeated location and rights metadata much faster to apply.
+
+### Map-Based Location Tools
+![](https://metaphotoai.io/whats-new/3.0.28/location-map-tools.jpeg)
+Set GPS metadata with a map picker, paste coordinates from another source, copy existing coordinates, or reset the location fields from the same workflow.
+
+### Image Review Tools
+![](https://metaphotoai.io/whats-new/3.0.28/image-review-tools.jpeg)
+Rate images, filter by rating, show ratings in the preview, and mark files as rejected when they should be skipped from review or batch actions.
+
+### Similar Image Audit
+![](https://metaphotoai.io/whats-new/3.0.28/similar-image-audit.jpeg)
+Find visually similar images in a folder, compare matched groups with previews, adjust scan sensitivity, and take action on duplicates or near-duplicates before export.
+
+### Richer Image Info
+![](https://metaphotoai.io/whats-new/3.0.28/richer-image-info.jpeg)
+The Image Info panel now includes RGB and luminance histograms, color profile details, expanded file information, and rotation controls for derived assets.
+
+### Preview & Workspace Polish
+![](https://metaphotoai.io/whats-new/3.0.28/preview-workspace-polish.jpeg)
+Preview metadata now overlays the image with cleaner spacing and shadows, zoom controls sit below the image area, and right-panel tabs can be customized from a compact dropdown.
+
+### Faster Startup & Smoother Large Folders
+MetaPhotoAI now opens sooner and handles large folders more smoothly with improved thumbnail loading, folder scanning, and background work scheduling.
+
+### More Keyboard & Command Palette Coverage
+More folder, image, selection, export, upload, copyright, preview, and tab actions are available from the command palette and keyboard-friendly workflows.
+
 ## [3.0.27] April 2026
 
 ### Dark, Light & Auto Themes
