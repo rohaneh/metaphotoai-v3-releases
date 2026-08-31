@@ -1,5 +1,43 @@
 # What's New in MetaPhotoAI
 
+## [3.1.0] August 2026
+
+### Controlled Vocabulary Keywords for Getty & iStock
+Getty Images and iStock only accept keywords from their controlled vocabulary — a fixed list of approved terms — and silently drop everything else at submission. Turn on Controlled Vocabulary in Settings > Keywords and MetaPhotoAI generates keywords drawn from that vocabulary, so the terms you write are the terms that count. MetaPhotoAI is an independent application and is not affiliated with or endorsed by Getty Images or iStock.
+
+### Vocabulary Match Badges & Filtering
+A shield badge on each image shows whether its keywords are fully or partially vocabulary-matched, and unmatched terms are marked right in the keyword list — your manual edits are never removed, only flagged. Filter your whole library by match status to isolate a Getty/iStock submission set in seconds.
+
+### Pre-Upload Vocabulary Check
+Before you upload to a Getty/iStock destination, MetaPhotoAI warns you if selected files carry keywords that weren't generated with Controlled Vocabulary, so you can regenerate first instead of finding out after submission. Missing the required IPTC Country field? MetaPhotoAI prompts for a default and fills it in wherever it's unset. Automated workflows get their own independent Controlled Vocabulary setting.
+
+### Image Quality Check
+MetaPhotoAI now scores your images locally for blur, exposure problems, and grain or noise — including the blotchy artifacts high-ISO noise reduction leaves behind. Flagged images get warning badges, can be filtered in the grid, and are called out before upload. Choose low, balanced, or high sensitivity, with a separate sensitivity control just for grain.
+
+### Cropped Copies
+Save or export a cropped copy of any image straight from the crop editor, with the original's metadata carried over to the copy. Choose what happens to the source photo when you save, pick aspect presets from a compact dropdown, and hold Shift while resizing a free crop to lock its ratio.
+
+### Faster Everywhere
+Importing large batches is up to 4x faster, scrolling long filmstrips and grids is dramatically smoother, and collections open in a fraction of the time. Generation now gives instant feedback from every entry point, thumbnails load with a smooth shimmer-and-fade, and batch progress is easier to follow while work is queued, processing, or uploading.
+
+### Background Imports from Cards & Drives
+Attach a memory card or external drive and the import dialog opens automatically. Imports now run in the background with a floating progress card, so you can keep working while files copy in.
+
+### Missing Folders Handled Gracefully
+If a drive is unplugged or a folder disappears, its images now show as offline instead of causing errors. The sidebar warns you with a tooltip, and offline images are automatically excluded from generation, uploads, and exports until the folder comes back.
+
+### One-Click Updates
+When an update is ready, the version number in the status bar becomes an Update button with live download progress. The feedback window also lets you know when a newer release is available, with an Update Now button right there.
+
+### Category Suggestions, Even Offline
+Category suggestions now fall back to on-device processing when you're offline or the connection drops, and the supporting model ships with the app — so semantic features work out of the box, no extra download needed.
+
+### Actionable Workflow Failures
+When a workflow fails, the failure toast now takes you straight to the queue, and queue cards are labeled as metadata or category runs so you can see at a glance what ran and what needs attention.
+
+### Quality of Life
+Reveal or hide CSV templates and FTP hosts directly from the toolbar dropdowns, see your reserved credits in the account menu, drag and drop files to import in grid view, and enjoy thumbnails that keep their true aspect ratio in the filmstrip and grid.
+
 ## [3.0.28] June 2026
 
 ### Collections & Smart Collections

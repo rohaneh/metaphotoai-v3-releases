@@ -2,6 +2,60 @@
 
 All notable changes to MetaPhotoAI will be documented in this file.
 
+## [3.1.0] - 2026-08-31
+
+### Added
+- Controlled Vocabulary: Generate keywords drawn from the Getty Images / iStock controlled vocabulary, with a toggle in Settings > Keywords and in the metadata panel
+- Controlled Vocabulary: Per-image shield badge showing full or partial vocabulary match, with unmatched terms marked directly in the keyword list
+- Controlled Vocabulary: Library filter by vocabulary match status (matched, not matched, all)
+- Controlled Vocabulary: Pre-upload warning when selected files carry keywords that weren't generated against the controlled vocabulary
+- Controlled Vocabulary: Prompt for a default IPTC Country value, applied wherever the field is unset, to satisfy Getty/iStock submission requirements
+- Controlled Vocabulary: Independent per-workflow Controlled Vocabulary setting for automated workflows
+- Image Quality Check: Local blur and exposure scoring with warning badges, grid filters, and a pre-upload quality callout
+- Image Quality Check: Grain and noise detection, including high-ISO noise-reduction artifacts, running as a separate background check
+- Image Quality Check: Configurable sensitivity (low / balanced / high) with a separate sensitivity selector for grain
+- Crop Editor: Save Cropped Copy and Export Cropped Copy actions, with source metadata preserved on the copy
+- Crop Editor: Choice of what happens to the original photo when saving a cropped copy
+- Crop Editor: Hold Shift while resizing a free crop to lock its aspect ratio
+- Import: Import dialog opens automatically when removable media is attached
+- Import: Non-blocking background imports with a floating progress card
+- Import: Drag-and-drop file import in grid view
+- Missing Folders: Offline state for images whose root folder is unavailable, with sidebar warning tooltips and automatic exclusion from generation, FTP upload, and CSV export
+- Updates: Status bar version becomes an Update button with checking state and live download progress when an update is available
+- Updates: Newer-release notice and Update Now button in the feedback window
+- Categories: On-device fallback for category suggestions when the connection is unavailable
+- Categories: Supporting model now ships with the app so semantic features work without an extra download
+- Toolbar: Reveal or hide CSV templates and FTP hosts inline from the toolbar dropdowns
+- Account: Reserved credits shown in the account menu
+- Queue: Run-type labels distinguishing metadata and category runs
+- Workflows: Failure toasts open the workflow queue directly, with clearer recovery for failed runs
+
+### Changed
+- Performance: Import throughput up to 4x faster and thumbnail scrolling dramatically smoother in large folders
+- Performance: Collections open much faster, and folder opening no longer blocks on background reconciliation
+- Performance: Immediate feedback when starting generation from any entry point, with clearer queued / processing / uploading progress
+- Performance: Thumbnail loading with skeleton shimmer, fade-in, and a blurred base layer while previews generate
+- Performance: Faster video metadata batches and workflow thumbnail readiness
+- Thumbnails: Filmstrip and grid thumbnails preserve the image's aspect ratio
+- Upload: Cloud upload progress phase renamed to image preparation for clarity
+- Similar Images: Open-in-Finder buttons replaced with show-in-library navigation
+- Feedback: Bug reports now include a compact diagnostic summary to help resolve issues faster, with personal details removed automatically before sending
+- Security: Strengthened connection security for FTP, FTPS, and SFTP uploads, with clearer connection-security details in FTP settings
+- Stability: Updated core framework and key components to current stable versions
+- Localization: Translations added for controlled vocabulary, quality check, crop copies, and other new workflows across all supported languages
+
+### Fixed
+- Selection: Shift-select no longer ranges over images hidden by active filters
+- Similarity: Images without metadata are excluded from metadata similarity
+- Import Dialog: Fixed stale checkmark when toggling a file via its checkbox
+- Selection: Warning popover clicks no longer clear the image selection
+- Context Menus: Native edit menu no longer doubles up with custom context menus
+- Folders: Moving an already-missing folder to Trash is handled gracefully
+- Collections: Fixed stale membership counts after collection changes
+- Controlled Vocabulary: Shield badge hidden when an image has no keywords, and fixed a badge selection regression
+- FTP: Fixed upload verification issues and settings form flashing default values before hosts load
+- Updater: Fixed races between updating and quitting the app
+
 ## [3.0.28] - 2026-06-01
 
 ### Added
@@ -311,6 +365,7 @@ All notable changes to MetaPhotoAI will be documented in this file.
 
 ---
 
+[3.1.0]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.1.0
 [3.0.28]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.28
 [3.0.27]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.27
 [3.0.23]: https://github.com/rohaneh/metaphotoai-v3-releases/releases/tag/v3.0.23
